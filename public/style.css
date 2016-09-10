@@ -1,0 +1,39 @@
+.page-header{
+float:none;
+margin:0 auto;
+/*margin-top:0;*/
+text-align: center;
+padding:15px 0 0 15px;
+  color:white;
+  background-color: #94071F;
+
+}
+.container{
+  height: 300px;
+  background-color: #010359;
+  float:none;
+  margin:0 auto;
+}
+  /*#calcTextArea{
+    width: 250px;
+    height:50px;
+    float:none;
+    margin:0 auto;
+    background-color: #B3F2FF;
+}*/
+.btn-group{
+  /*background-color: #B5BFBC;
+  color:black;
+  display: inline;*/
+  width: 800px;
+  float:none;
+  margin:0 auto;
+  /*border:1px solid white;*/
+}
+.btn{
+  float: none;
+  margin:0 auto;
+}
+/*#plus{
+
+}*/
