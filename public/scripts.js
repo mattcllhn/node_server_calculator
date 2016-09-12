@@ -2,13 +2,7 @@
 console.log('scripts.js sourced');
 $(document).ready(function(){
   console.log('jquery is working');
-// var calculator = $('<div />',{
-//     class:'calcBody',
-//     children:[$('<div />',{
-//       class:'btn-group btn-group-lg'
-//     })],
-//
-// });
+
 var number='';
 var equals=0;
 var ajaxObject={
@@ -21,15 +15,13 @@ var reset = function () {
 };//reset
 
   $('.btn').on('click',function(){
-    if(number!==''&&equals>0){
-    console.log('in the if, motherfucker');
-  }else{
+
     number +=($(this).html());
       $('#outputP').html(number);
       ajaxObject.aNumber=number;
     console.log(number);
     console.log(ajaxObject);
-  }});//btn onclick
+  });//btn onclick
 
   $('#calculate').on('click',function(){
 
